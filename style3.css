@@ -109,7 +109,48 @@ ul{
     box-shadow: 0px 0px 30px #ff7d00;
     border-radius: 30px;
 }
-
+.diva{
+    animation: textColor1 10s ease infinite;
+}
+@keyframes textColor1 {
+    0% {
+        color: #ff7d00;
+   }
+    50% {
+        color: yellow;
+   }
+    100% {
+        color: #ff7d00;
+   }
+   }
+   .dive{
+    animation: textColor2 10s ease infinite;
+}
+   @keyframes textColor2 {
+    0% {
+         color: #ff7d00;
+    }
+     50% {
+         color: #EABE3F;
+    }
+     100% {
+         color: #ff7d00;
+    }
+    }
+    .divo{
+        animation: textColor3 10s ease infinite;
+    }
+       @keyframes textColor3 {
+        0% {
+            color: #ff7d00;
+        }
+        50% {
+            color: red;
+        }
+        100% {
+            color: #ff7d00;
+        }
+    }
 .divi{
     width: 100%;
     height: 459px;
