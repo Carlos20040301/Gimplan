@@ -109,48 +109,7 @@ ul{
     box-shadow: 0px 0px 30px #ff7d00;
     border-radius: 30px;
 }
-.diva{
-    animation: textColor1 10s ease infinite;
-}
-@keyframes textColor1 {
-    0% {
-        color: #ff7d00;
-   }
-    50% {
-        color: yellow;
-   }
-    100% {
-        color: #ff7d00;
-   }
-   }
-   .dive{
-    animation: textColor2 10s ease infinite;
-}
-   @keyframes textColor2 {
-    0% {
-         color: #ff7d00;
-    }
-     50% {
-         color: #EABE3F;
-    }
-     100% {
-         color: #ff7d00;
-    }
-    }
-    .divo{
-        animation: textColor3 10s ease infinite;
-    }
-       @keyframes textColor3 {
-        0% {
-            color: #ff7d00;
-        }
-        50% {
-            color: red;
-        }
-        100% {
-            color: #ff7d00;
-        }
-    }
+
 .divi{
     width: 100%;
     height: 459px;
@@ -182,8 +141,8 @@ ul{
 
 h2{
     font-size: 2em;
+    color:#ff7d00;
     font-family: 'PT Sans';
-    color: #ff7d00;
     padding-bottom: 20px;
 }
 
@@ -192,7 +151,6 @@ h2{
 }
 
 .cuerpo li{
-    color: white;
     list-style: disc;
     padding: 3px 0;
 }
@@ -203,6 +161,51 @@ footer{
     padding: 10px;
     text-align: center;
 }
+.diva{
+    animation: textColor1 10s ease infinite;
+}
+@keyframes textColor1 {
+    0% {
+        color: #ffffff;
+   }
+    50% {
+        color: rgb(30, 255, 0);
+   }
+    100% {
+        color: #ffffff;
+   }
+   }
+   .dive{
+    animation: textColor2 10s ease infinite;
+}
+   @keyframes textColor2 {
+    0% {
+         color: #ffffff;
+    }
+     50% {
+         color: #ece903;
+    }
+     100% {
+         color: #ffffff;
+    }
+    }
+    .divo{
+        animation: textColor3 10s ease infinite;
+    }
+       @keyframes textColor3 {
+        0% {
+            color: #ffffff;
+        }
+        50% {
+            color: rgb(255, 70, 70);
+        }
+        100% {
+            color: #ffffff;
+        }
+    }
+    .divi{
+        color:#ffffff;
+    }
 
 @media (max-width: 1100px) {
     .menu-btn {
